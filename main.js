@@ -11,11 +11,11 @@ function calculate() {
 
 	if (bmi <= 18.4) {
 		measure = "你的BMI值为 " + bmi + " 你的体重过轻 " ;
-	} else if (bmi >= 18.5 && bmi <= 24.9) {
+	} else if (bmi >= 18.5 && bmi <= 23.9) {
 		measure = "Your BMI is " + bmi + " 你的体重正常 " ;
-	} else if (bmi >= 25 && bmi <= 29.9) {
+	} else if (bmi >= 24 && bmi <= 27.9) {
 		measure = "Your BMI is " + bmi + " 你的体重超重 " ;
-	} else if (bmi >= 30) {
+	} else if (bmi >= 28) {
 		measure = "Your BMI is " + bmi + " 你的体重已达到肥胖程度 " ;
 	}
 	
