@@ -8,20 +8,20 @@
 <body>
     <div class="container">
     	<div class="panel">
-    		<h2 class="text-center">BMI计算器</h2>
+    		<h2 class="text-center">BMI(身体质量指数)计算器</h2>
     		
-    			<p id="introText" class="text-center">Enter your weight and height below to check your BMI results</p>
+    			<p id="introText" class="text-center">在下方输入你的体重和身高以计算你的BMI值</p>
     			
     			<form>
     				<div id="weightInput">
-    					<p>Put your weight in here (KG)</p>
+    					<p>请输入你的身高(千克)</p>
     		     		<input id="weight" type="number" pattern="[0-9]*" name="a" />
     				</div>
     				<div id="heightInput">
-    					<p>And your height in here (CM)</p>
+    					<p>请输入你的体重(厘米)</p>
 	    				 <input id="height" type="number" pattern="[0-9]*" name="b"/> 
     				</div>
-    		     <button type="button" class="btn" onclick="calculate()">Calculate BMI</button>
+    		     <button type="button" class="btn" onclick="calculate()">计算 BMI</button>
     		</form>
     		<div id="results" class="text-center">Your BMI results will appear here</div>
     	</div>
